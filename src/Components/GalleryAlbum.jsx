@@ -1,5 +1,7 @@
 import React, { useContext, useState } from "react";
 import { GalleriesContext } from "../contexts/Galleries";
+import BgImg from "../img/triangle.svg";
+
 const categories = [
   "ROOMS",
   "SKY BAR & LOUNGE",
@@ -30,8 +32,14 @@ const GalleryAlbum = () => {
 
 return (
   <section className="bg-gray-100 ">
-    <div className="p-3 md:p-10 font-heading ml-0 md:ml-0 lg:ml-0 lg:px-28 md:pt-10">
-      <div className="block   lg:xl:2xl:flex   lg:2xl:xl:flex-wrap  select-none font-semibold text-sm  ">
+     <div className="w-full h-8">
+          <div
+            className="h-8 bg-repeat-x -translate-y-[70%]"
+            style={{ backgroundImage: `url(${BgImg}) ` }}
+          ></div>
+        </div>
+    <div className="p-3 md:p-10 font-heading ml-0 md:ml-0 lg:ml-0 lg:px-28 md:pt-10 xl:container xl:mx-auto">
+      <div className="block   lg:xl:2xl:flex   lg:2xl:xl:flex-wrap  select-none font-semibold text-xs  ">
         <button
           // onClick={() => {
           //   handleButtonClick("all");
@@ -49,7 +57,7 @@ return (
               //   handleButtonClick({ item });
               //   // console.log({item});
               // }}
-              className=" whitespace-nowrap tracking-widest w-full mt-3 md:w-auto text-[#24324a] hover:bg-[#d77b5d] hover:text-white bg-white rounded-full text-sm px-7 py-3"
+              className=" whitespace-nowrap tracking-widest w-full mt-3 md:w-auto text-[#24324a]  hover:text-[#d77b5d] bg-white rounded-full text-xs px-7 py-3"
               key={index}
               // style={getButtonStyles({ item })}
             >

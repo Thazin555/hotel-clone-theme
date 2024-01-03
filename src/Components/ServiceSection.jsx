@@ -90,7 +90,7 @@ const ServiceSection = () => {
         link: false,
       },
     ]);
-  rreturn(
+  return(
     <section>
       {/* title wrapper  */}
       <div className="relative">

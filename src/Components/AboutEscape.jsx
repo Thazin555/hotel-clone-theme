@@ -23,10 +23,10 @@ const AboutEscape = () => {
           <p className=" text-[#d77b5d] tracking-[0.125rem] md:w-[60%] text-[12px] mb-[10px] md:mt-0 mt-[20px] font-heading font-black">
             YOUR PERFECT ESCAPE
           </p>
-          <h2 className="md:w-[60%] md:text-[48px] text-[34px] sm:leading-[37.4px] md:mb-[40px] !mb-[20px]">
+          <h2 className="md:w-[60%] text-[#24324a]  md:text-[48px] text-[34px] sm:leading-[37.4px] md:mb-[40px] !mb-[20px]">
             About Page
           </h2>
-          <p className="md:w-[60%] md:text-[18px] text-[14px] leading-[30px]">
+          <p className="md:w-[60%] text-[#24324a]  md:text-[18px] text-[14px] leading-[30px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Pellentesque eget commodo orci. Integer varius nibh eu mattis porta.
             Pellentesque dictum sem eget cursus semper. Nullam quis blandit

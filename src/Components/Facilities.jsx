@@ -77,7 +77,7 @@ const Facilities = () => {
   };
 
   return (
-    <div className="">
+    <div className="pt-20">
       <div className="relative bg-no-repeat lg:bg-[url(https://ninetheme.com/themes/grandium/wp-content/uploads/2016/07/photo-about.jpg)] bg-right ">
         <div className=" max-w-[1300px] bg-perfect-before md:py-[100px] py-[40px] lg:px-[60px] px-[40px] mx-auto">
           <div className="relative lg:w-[50%] w-full inline-block  lg:text-left ">
@@ -85,7 +85,7 @@ const Facilities = () => {
               <p className="text-[#d77b5d] tracking-[0.125rem] text-[12px] mb-[10px] md:mt-0 mt-[20px] font-heading font-black">
                 ABOUT THE GRANDIUM{" "}
               </p>
-              <h1 className="md:text-[48px] text-[34px] sm:leading-[37.4px] md:mb-[40px] !mb-[20px]">
+              <h1 className="md:text-[48px] text-[34px] text-[#24324a] sm:leading-[37.4px] md:mb-[40px] !mb-[20px]">
                 Your Perfect Escape
               </h1>
             </div>
@@ -222,10 +222,10 @@ const Facilities = () => {
             </div>
           </div>
         </div> */}
-        <div className=" flex flex-wrap    lg:px-28 ">
-          <div className="lg:w-1/3 md:w-1/2 w-full px-2 md:px-10">
+        <div className=" flex flex-wrap    lg:px-28 xl:container xl:mx-auto">
+          <div className="lg:w-1/3  md:w-1/2 w-full px-2 lg:px-10">
             <div className="border-[20px] border-white inline-block   mb-10">
-              <div className=" relative bg-[url(https://preview.locotheme.com/grandium-html/assets/img/photo-services-1-2.jpg)]  w-[350px] md:w-[250px] md:h-[250px] lg:w-[380px] h-[450px] lg:xl:2xl:h-[450px] overflow-hidden bg-cover">
+              <div className=" relative bg-[url(https://preview.locotheme.com/grandium-html/assets/img/photo-services-1-2.jpg)]  w-[350px]  md:w-[250px] md:h-[250px]  lg:w-[380px] h-[450px] lg:xl:2xl:h-[450px] overflow-hidden bg-cover">
                 <div className="absolute w-full bg-gradient-to-t from-[#24324a] to-transparent px-8 lg:px-8 md:px-3 pt-10 h-2/3 bottom-0 translate-y-[70%] md:translate-y-0 lg:translate-y-28 hover:translate-y-20 duration-300">
                   <h1 className=" font-san text-3xl md:text-lg lg:text-3xl text-center md:text-left  text-white mb-3">
                     Sky Bar & Lounge
@@ -241,7 +241,7 @@ const Facilities = () => {
           </div>
           <div className="lg:w-1/3 md:w-1/2 w-full px-2 md:px-10">
             <div className=" border-[20px] border-white inline-block  mb-10 ">
-              <div className=" relative bg-[url(https://preview.locotheme.com/grandium-html/assets/img/photo-services-4-1.jpg)] w-[350px] md:w-[250px] md:h-[250px] lg:w-[380px] h-[450px] lg:xl:2xl:h-[450px] overflow-hidden bg-cover">
+              <div className=" relative bg-[url(https://preview.locotheme.com/grandium-html/assets/img/photo-services-4-1.jpg)] w-[350px]   md:w-[250px] md:h-[250px] lg:w-[380px] h-[450px] lg:xl:2xl:h-[450px] overflow-hidden bg-cover">
                 <div className="absolute w-full bg-gradient-to-t from-[#24324a] to-transparent px-8 lg:px-8 md:px-3 pt-10 h-2/3 bottom-0 translate-y-[70%] md:translate-y-0 lg:translate-y-28 hover:translate-y-20 duration-300">
                   <h1 className=" font-san md:text-lg text-3xl lg:text-3xl text-center md:text-left  text-white mb-3">
                     Private Dining
