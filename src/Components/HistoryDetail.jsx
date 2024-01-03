@@ -2,7 +2,7 @@ import React from 'react'
 
 const HistoryDetail = () => {
   return (
-    <div>
+    <div className='text-[#24324a] '>
       <div className=" md:py-[40px] relative !after:content-[''] after:absolute after:h-full after:w-[2px] md:after:bg-[#e1e1e1] after:bg-transparent after:top-0 after:left-[50%]">
         <div className="relative md:text-start text-center md:pl-[60%] mb-[50px] ">
           <span className=" absolute md:inline hidden top-[50%] left-[50.1%] w-4 h-4 -mx-2 bg-[#e1e1e1] rounded-full ">

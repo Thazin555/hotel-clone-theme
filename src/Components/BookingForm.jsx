@@ -1,5 +1,7 @@
 import React from 'react'
 import { PlusOutlined } from "@ant-design/icons";
+import BgImg from "../img/triangle.svg";
+
 import {
   Button,
   Cascader,
@@ -28,8 +30,14 @@ const normFile = (e) => {
 const BookingForm = () => {
   return (
     <section className="bg-gray-100 mx-auto ">
-      <div className="block  md:grid lg:xl:grid grid-cols-12 md:mx-5 md:gap-8 mx-2 lg:xl:2xl:mx-40 lg:xl:2xl:gap-10">
-        <div className=" col-span-12 lg:xl:2xl:3xl:col-span-9 md:col-span-7 mt-5 md:mt-20  bg-white mb-16  md:lg:xl:2xl:text-left pb-5  pt-20 px-5 md:p-8 lg:xl:2xl:p-14 ">
+      <div className="w-full h-8">
+          <div
+            className="h-8 bg-repeat-x -translate-y-[70%]"
+            style={{ backgroundImage: `url(${BgImg}) ` }}
+          ></div>
+        </div>
+      <div className="block 2xl:container 2xl:mx-auto  md:grid lg:xl:grid grid-cols-12  md:gap-8 mx-2 lg:xl:mx-40  lg:xl:2xl:gap-10">
+        <div className=" col-span-12 lg:xl:2xl:3xl:col-span-9 md:col-span-7 mt-5 md:mt-20  bg-white mb-16  md:lg:xl:2xl:text-left pb-5  pt-20 px-5 md:p-8 lg:xl:p-14 ">
           <div>
             <p className="text-[#d77b5d] font-heading font-bold text-xs md:lg:xl:2xl:text-sm tracking-widest mb-3">
               BOOKING FORM{" "}
@@ -153,7 +161,7 @@ const BookingForm = () => {
           </div>
         </div>
 
-        <div className=" col-span-5 lg:xl:2xl:3xl:col-span-3 ">
+        <div className=" col-span-5 lg:xl:2xl:3xl:col-span-4 pr-0 lg:pr-10 xl:pr-0 ">
           <div className="bg-white font-heading px-10 pt-14 mt-20">
             <div>
               <p className="text-[#d77b5d] font-heading font-bold text-xs md:lg:xl:2xl:text-sm tracking-widest mb-3">
@@ -166,7 +174,7 @@ const BookingForm = () => {
             </div>
             <div className="my-3">
               <p
-                className=" leading-7 text-[#24324a] px-0  md:pr-28  md:text-xs  lg:text-base text-base md:text-left lg:xl:2xl:3xl:text-left font-san mb-10"
+                className=" leading-9 text-[#24324a] px-0  md:pr-28  md:text-xs  lg:text-base text-base md:text-left lg:xl:2xl:3xl:text-left font-san mb-10"
                 style={{ wordSpacing: "0.2em" }}
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -248,13 +256,13 @@ const BookingForm = () => {
               <p className="text-[#d77b5d] font-heading font-bold text-xs md:lg:xl:2xl:text-sm tracking-widest mb-3">
                 HELP{" "}
               </p>
-              <h1 className="text-[#24324a] font-san text-2xl  lg:xl:2xl:text-4xl">
+              <h1 className="text-[#24324a] font-san text-2xl lg:pr-[150px] lg:xl:2xl:text-4xl">
                 Need Booking Help?
               </h1>
             </div>
             <div className="my-3">
               <p
-                className=" leading-7 text-[#24324a] px-0  md:px-0 md:text-xs lg:xl:2xl:text-base  text-base md:text-left lg:xl:2xl:3xl:text-left  break-all font-san  lg:xl:2xl:mb-10"
+                className=" leading-7 text-[#24324a] px-0 lg:pr-[110px] md:px-0 md:text-xs lg:xl:2xl:text-base  text-base md:text-left lg:xl:2xl:3xl:text-left  break-all font-san  lg:xl:2xl:mb-10"
                 style={{ wordSpacing: "0.2em" }}
               >
                 If you need help with booking, Our advisor team are 24/7 at your
