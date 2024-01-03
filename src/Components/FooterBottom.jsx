@@ -9,7 +9,11 @@ const FooterBottom = () => {
         <div className="">
           <div className=" block max-w-[220px] mx-auto">
             <Link to="/">
-              <img className=" " src="src/img/logo.png" alt="" />
+              <img
+                className=" "
+                src="https://ninetheme.com/themes/grandium/wp-content/themes/grandium/img/logo.png"
+                alt=""
+              />
             </Link>
           </div>
           <p className=" !text-[#818a9c] mt-[30px] text-[11px] font-extrabold tracking-[0.125rem] font-heading">

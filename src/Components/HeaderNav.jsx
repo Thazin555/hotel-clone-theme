@@ -39,7 +39,7 @@ const HeaderNav = () => {
   const handleBlogSOpen = () => {
     setBlogSOpen(!blogSOpen);
   };
-  return(
+  return (
     <header className="min-h-[110px] bg-gray">
       <div className=" max-w-[1300px] px-0 mx-auto my-0">
         <div className=" flex  lg:items-start justify-center lg:justify-around relative md:pb-0 pb-[60px]">
@@ -111,7 +111,11 @@ const HeaderNav = () => {
           </ul>
 
           <Link to="/">
-            <img className="h-[70px] w-[220px]" src="src/img/logo.png" alt="" />
+            <img
+              className="h-[70px] w-[220px]"
+              src="https://ninetheme.com/themes/grandium/wp-content/themes/grandium/img/logo.png"
+              alt=""
+            />
           </Link>
           <ul className="lg:flex lg:space-x-2 hidden lg:flex-row">
             <li>

@@ -115,7 +115,11 @@ const NavSection = () => {
         </ul>
 
         <NavLink to="/">
-          <img className="h-[70px] w-[220px] " src="src/img/logo.png" alt="" />
+          <img
+            className="h-[70px] w-[220px] "
+            src="https://ninetheme.com/themes/grandium/wp-content/themes/grandium/img/logo.png"
+            alt=""
+          />
         </NavLink>
         <ul className="lg:flex lg:space-x-2 hidden lg:flex-row">
           <li>
