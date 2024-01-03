@@ -13,17 +13,6 @@ const RoomSection = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac scelerisque leo. Curabitur sed ornare orci. Nulla molestie pretium libero q",
       discountPrice: 589,
       price: 620,
-      services: [
-        "breakfast",
-        "wi-fi",
-        "hair dryer",
-        "lcd TV",
-        "shower and tab",
-        "security system",
-        "air conditioning",
-        "tea and coffee set",
-        "tea and coffee set",
-      ],
     },
     {
       id: 2,
@@ -33,17 +22,6 @@ const RoomSection = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac scelerisque leo. Curabitur sed ornare orci. Nulla molestie pretium libero q",
       discountPrice: 540,
       price: 5200,
-      services: [
-        "breakfast",
-        "wi-fi",
-        "hair dryer",
-        "lcd TV",
-        "shower and tab",
-        "security system",
-        "air conditioning",
-        "tea and coffee set",
-        "tea and coffee set",
-      ],
     },
     {
       id: 3,
@@ -53,17 +31,6 @@ const RoomSection = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac scelerisque leo. Curabitur sed ornare orci. Nulla molestie pretium libero q",
       discountPrice: 420,
       price: 500,
-      services: [
-        "breakfast",
-        "wi-fi",
-        "hair dryer",
-        "lcd TV",
-        "shower and tab",
-        "security system",
-        "air conditioning",
-        "tea and coffee set",
-        "tea and coffee set",
-      ],
     },
     {
       id: 4,
@@ -73,17 +40,6 @@ const RoomSection = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta. Pellentesque di",
       discountPrice: 300,
       price: 320,
-      services: [
-        "breakfast",
-        "wi-fi",
-        "hair dryer",
-        "lcd TV",
-        "shower and tab",
-        "security system",
-        "air conditioning",
-        "tea and coffee set",
-        "tea and coffee set",
-      ],
     },
     {
       id: 5,
@@ -93,17 +49,6 @@ const RoomSection = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta. Pellentesque di",
       discountPrice: 160,
       price: 320,
-      services: [
-        "breakfast",
-        "wi-fi",
-        "hair dryer",
-        "lcd TV",
-        "shower and tab",
-        "security system",
-        "air conditioning",
-        "tea and coffee set",
-        "tea and coffee set",
-      ],
     },
   ];
 
@@ -148,7 +93,6 @@ const RoomSection = () => {
               description,
               discountPrice,
               price,
-              services,
             }) => (
               <RoomCard
                 key={id}
@@ -157,7 +101,6 @@ const RoomSection = () => {
                 description={description}
                 discount={discountPrice}
                 price={price}
-                services={services}
               />
             )
           )}

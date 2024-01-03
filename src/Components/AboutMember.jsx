@@ -14,7 +14,7 @@ const AboutMember = ({ id, img, mName, role }) => {
         <h5 className=" text-[#d77b5d] text-[12px] font-black font-heading tracking-[1px] leading-[13.2px] mb-[10px]">
           {mName}
         </h5>
-        <h5 className=" font-heading text-[10px] tracking-[1px] leading-[11px]">
+        <h5 className=" font-heading text-[#24324a]  text-[10px] tracking-[1px] leading-[11px]">
           {role}
         </h5>
       </div>

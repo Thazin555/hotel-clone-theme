@@ -9,7 +9,7 @@ const AboutGrandium = () => {
             <h5 className="text-[#d77b5d] md:text-start text-center tracking-[0.125rem] text-[12px] font-black font-heading">
               ABOUT THE GRANDIUM
             </h5>
-            <h1 className=" text-[30px] mb-5 md:text-start text-center">
+            <h1 className=" text-[30px] text-[#24324a]  mb-5 md:text-start text-center">
               Our Philosophy
             </h1>
             <p className=" mb-[10px] text-justify leading-6 font-[#24324a] text-[14px] ">
@@ -31,7 +31,7 @@ const AboutGrandium = () => {
             <h5 className="text-[#d77b5d] md:text-start text-center tracking-[0.125rem] text-[12px] font-black font-heading">
               ABOUT THE GRANDIUM
             </h5>
-            <h1 className=" text-[30px] mb-5 md:text-start text-center">
+            <h1 className=" text-[#24324a]  text-[30px] mb-5 md:text-start text-center">
               Our Mission
             </h1>
             <p className=" mb-[10px] text-justify leading-6 font-[#24324a] text-[14px]">
