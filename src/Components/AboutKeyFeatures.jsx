@@ -101,10 +101,10 @@ const AboutKeyFeatures = () => {
           <h5 className="text-[#d77b5d] tracking-[0.125rem] text-[12px] font-black font-heading">
             KEY FEATURES
           </h5>
-          <p className=" md:text-[48px] text-[34px] leading-none">
+          <p className=" text-[#24324a]  md:text-[48px] text-[34px] leading-none">
             Explore The Grandium
           </p>
-          <p className=" mt-[30px] leading-[30px] font-[#24324a] md:text-[18px] text-[14px] lg:w-[50vw] mx-auto">
+          <p className=" mt-[30px] text-[#24324a]  leading-[30px] font-[#24324a] md:text-[18px] text-[14px] lg:w-[50vw] mx-auto">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Pellentesque eget commodo orci. Integer varius nibh eu mattis porta.
             Pellentesque dictum sem eget cursus semper. Nullam quis blandit

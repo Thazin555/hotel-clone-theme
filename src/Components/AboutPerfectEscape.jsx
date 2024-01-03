@@ -10,11 +10,11 @@ const AboutPerfectEscape = () => {
               <p className="text-[#d77b5d] tracking-[0.125rem] text-[12px] mb-[10px] md:mt-0 mt-[20px] font-heading font-black">
                 ABOUT THE GRANDIUM{" "}
               </p>
-              <h1 className="md:text-[48px] text-[34px] sm:leading-[37.4px] md:mb-[40px] !mb-[20px]">
+              <h1 className="md:text-[48px] text-[#24324a]  text-[34px] sm:leading-[37.4px] md:mb-[40px] !mb-[20px]">
                 Your Perfect Escape
               </h1>
             </div>
-            <div className="my-8">
+            <div className="my-8 ">
               <p className="md:text-[18px] text-[14px] leading-[30px] text-justify text-[#24324a]  lg:text-left  break-all font-san mb-10">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Pellentesque eget commodo orci. Integer varius nibh eu mattis

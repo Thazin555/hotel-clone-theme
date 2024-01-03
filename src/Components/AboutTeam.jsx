@@ -10,8 +10,8 @@ const AboutTeam = () => {
           <h5 className="text-[#d77b5d] tracking-[0.125rem] text-[12px] font-black font-heading">
             TEAM
           </h5>
-          <p className=" text-[48px] leading-none">Our Staff</p>
-          <p className=" mt-[30px] leading-[30px] font-[#24324a] text-center text-[18px] lg:w-[50vw] md:w-[70vw] inline-block ">
+          <p className=" text-[#24324a]  text-[48px] leading-none">Our Staff</p>
+          <p className=" mt-[30px] leading-[30px] text-[#24324a]  font-[#24324a] text-center text-[18px] lg:w-[50vw] md:w-[70vw] inline-block ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Pellentesque eget commodo orci. Integer varius nibh eu mattis porta.
             Pellentesque dictum sem eget cursus semper. Nullam quis blandit

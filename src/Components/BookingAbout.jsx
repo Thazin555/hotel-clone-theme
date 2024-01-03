@@ -2,18 +2,19 @@ import React from 'react'
 
 const BookingAbout = () => {
   return (
-    <section className="mx-0 lg:mx-11 grid grid-cols-1 md:grid-cols-12 lg:xl:2xl:grid-cols-12 pt-0 md:pt-[50px] w-full h-full ">
-      <div className="col-span-7 text-center   md:text-left lg:xl:2xl:text-left  pt-20 md:pl-14 lg:xl:2xl:pl-24 ">
-        <div>
+    <section className="mx-0 lg:mx-11 grid grid-cols-1 md:grid-cols-12 lg:xl:2xl:grid-cols-12 pt-0 md:pt-[50px] w-full h-full  xl:container xl:mx-auto">
+      <div className="col-span-7 text-center   md:text-left lg:xl:2xl:text-left  pt-20 md:pl-14 lg:pl-24  ">
+        <div className='relative z-30'>
+        <div >
           <p className="text-[#d77b5d] font-heading font-bold text-xs md:text-sm lg:xl:2xl:text-sm tracking-[0.2rem] mb-3">
-            {/* STAY THE GRANDIUM{" "} */}
+            
             DEFAULT PAGE
           </p>
           <h1 className="text-[#24324a] font-san text-3xl md:text-4xl lg:xl:2xl:text-6xl">
             Booking - Contact Form
           </h1>
         </div>
-        <div className="my-5 md:my-10">
+        <div className="mt-5 md:mt-10 -mb-12">
           <p
             className="leading-8 text-[#24324a] px-5  md:px-0 lg:xl:2xl:px-0 md:text-sm lg:xl:2xl:text-xl text-sm md:text-left lg:xl:2xl:3xl:text-left  break-all font-san mb-10"
             style={{ wordSpacing: "0.3em" }}
@@ -25,6 +26,8 @@ const BookingAbout = () => {
             bibendum in mauris nec ultrices. Nunc et magna velit.
           </p>
         </div>
+        </div>
+       
 
         {/* <nav className="hidden font-heading md:flex uppercase" aria-label="Breadcrumb">
         <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
