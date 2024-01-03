@@ -1,7 +1,7 @@
 import { CheckCircle, Star } from "@phosphor-icons/react";
 import React from "react";
 
-const RoomCard = ({ img, title, description, discount, price, services }) => {
+const RoomCard = ({ img, title, description, discount, price }) => {
   const length = 3;
   const stars = Array.from({ length }, (_, index) => index + 1);
 
@@ -26,19 +26,19 @@ const RoomCard = ({ img, title, description, discount, price, services }) => {
         <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 grid-cols-1 xl:divide-x xl:divide-y-0 lg:divide-x lg:divide-y-0 md:divide-x md:divide-y-0 divide-y border-b">
           <div className="p-3 flex items-center gap-2 uppercase">
             <CheckCircle size={20} className="text-[#d77b5d]" />
-            <p className="text-[10px] font-heading text-[#24324a] tracking-[1px] lg:line-clamp-1">
+            <p className="text-[9.9px] font-bold font-heading text-[#24324a] tracking-[1px] lg:line-clamp-1">
               Breakfast
             </p>
           </div>
           <div className="p-3 flex items-center gap-2 uppercase">
             <CheckCircle size={20} className="text-[#d77b5d]" />
-            <p className="text-[10px] font-heading text-[#24324a] tracking-[1px] lg:line-clamp-1">
+            <p className="text-[9.9px] font-bold font-heading text-[#24324a] tracking-[1px] lg:line-clamp-1">
               wi-fi
             </p>
           </div>
           <div className="p-3 flex items-center gap-2 uppercase">
             <CheckCircle size={20} className="text-[#d77b5d]" />
-            <p className="text-[10px] font-heading text-[#24324a] tracking-[1px] lg:line-clamp-1">
+            <p className="text-[9.9px] font-bold font-heading text-[#24324a] tracking-[1px] lg:line-clamp-1">
               Hair dryer
             </p>
           </div>
@@ -47,19 +47,19 @@ const RoomCard = ({ img, title, description, discount, price, services }) => {
         <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 grid-cols-1 xl:divide-x xl:divide-y-0 lg:divide-x lg:divide-y-0 md:divide-x md:divide-y-0 divide-y border-b">
           <div className="p-3 flex items-center gap-2 uppercase">
             <CheckCircle size={20} className="text-[#d77b5d]" />
-            <p className="text-[10px] font-heading text-[#24324a] tracking-[1px] lg:line-clamp-1">
+            <p className="text-[9.9px] font-bold font-heading text-[#24324a] tracking-[1px] lg:line-clamp-1">
               LCD TV
             </p>
           </div>
           <div className="p-3 flex items-center gap-2 uppercase">
             <CheckCircle size={20} className="text-[#d77b5d]" />
-            <p className="text-[10px] font-heading text-[#24324a] tracking-[1px] lg:line-clamp-1">
+            <p className="text-[9.9px] font-bold font-heading text-[#24324a] tracking-[1px] lg:line-clamp-1">
               Shower and tab
             </p>
           </div>
           <div className="p-3 flex items-center gap-2 uppercase">
             <CheckCircle size={20} className="text-[#d77b5d]" />
-            <p className="text-[10px] font-heading text-[#24324a] tracking-[1px] lg:line-clamp-1">
+            <p className="text-[9.9px] font-bold font-heading text-[#24324a] tracking-[1px] lg:line-clamp-1">
               Security System
             </p>
           </div>
@@ -67,19 +67,19 @@ const RoomCard = ({ img, title, description, discount, price, services }) => {
         <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 grid-cols-1 xl:divide-x xl:divide-y-0 lg:divide-x lg:divide-y-0 md:divide-x md:divide-y-0 divide-y">
           <div className="p-3 flex items-center gap-2 uppercase">
             <CheckCircle size={20} className="text-[#d77b5d]" />
-            <p className="text-[10px] font-heading text-[#24324a] tracking-[1px] lg:line-clamp-1">
+            <p className="text-[9.9px] font-bold font-heading text-[#24324a] tracking-[1px] lg:line-clamp-1">
               Air conditioning
             </p>
           </div>
           <div className="p-3 flex items-center gap-2 uppercase">
             <CheckCircle size={20} className="text-[#d77b5d]" />
-            <p className="text-[10px] font-heading text-[#24324a] tracking-[1px] lg:line-clamp-1">
+            <p className="text-[9.9px] font-bold font-heading text-[#24324a] tracking-[1px] lg:line-clamp-1">
               Tea and coffee set
             </p>
           </div>
           <div className="p-3 flex items-center gap-2 uppercase">
             <CheckCircle size={20} className="text-[#d77b5d]" />
-            <p className="text-[10px] font-heading text-[#24324a] tracking-[1px] lg:line-clamp-1">
+            <p className="text-[9.9px] font-bold font-heading text-[#24324a] tracking-[1px] lg:line-clamp-1">
               Tea and coffee set
             </p>
           </div>
