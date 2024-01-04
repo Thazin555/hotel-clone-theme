@@ -237,17 +237,18 @@ const HeaderNav = () => {
               </div>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to="/Contact"
                 className="mx-[10px] uppercase text-[12px] lg:mb-0 mb-[10px] hover:text-[#d77b5d] font-bold leading-[44px] tracking-[2px] duration-200 cursor-pointer text-white font-heading"
                 aria-current="page"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
           <button
             onClick={handleOpen}
+            onBlur={handleOpen}
             className="flex items-center absolute md:top-2 md:right-[40px] -bottom-[30px] z-20 p-2 w-[60px] h-[60px] justify-center text-sm text-white bg-[#d77b5d] rounded-full lg:hidden"
           >
             <span className="sr-only">Open main menu</span>

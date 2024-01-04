@@ -7,7 +7,7 @@ import NavSection from '../Components/NavSection'
 const Header = () => {
   return (
     <div>
-      <HeroIcon/>
+      {/* <HeroIcon/> */}
       <HeroSection/>
       <MultipleItems/>
       <NavSection/>
