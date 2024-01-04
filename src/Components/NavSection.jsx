@@ -90,7 +90,7 @@ const NavSection = () => {
         </div>
       </div>
       <div className="max-w-[1300px] mx-auto">
-        <div className=" flex  lg:items-start lg:gap-[5rem] !gap-3 justify-center  relative md:pb-0 pb-[60px]">
+        <div className=" flex  lg:items-start lg:!gap-[5rem] !gap-3 justify-center  relative md:pb-0 pb-[60px]">
           <ul className="lg:flex lg:space-x-2 hidden lg:flex-row">
             <li>
               <Link
